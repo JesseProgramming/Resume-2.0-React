@@ -47,10 +47,10 @@ function Contact() {
                 <br/>
                 <h4 className="section-header">Let's get in contact!</h4>
                 <div id="personals-container">
-                    <a href="mailto:JesseClemProgramming@gmail.com" target="_blank"><img src={IMG_Email} className="contact-images"/>  <p>JesseClemProgramming@gmail.com</p></a>
-                    <a href="tel:+13607012737"><img src={IMG_Phone} width="30px"/>  <p>1(360)701-2737</p></a>
-                    <a href="https://github.com/JesseProgramming?tab=repositories" target="_blank"><img src={IMG_Github} className="contact-images"/>  <p>GitHub</p></a>
-                    <a href="https://www.linkedin.com/in/jesse-clem/" target="_blank"><img src={IMG_Linkedin} className="contact-images"/>  <p>Linkedin</p></a>
+                    <a href="mailto:JesseClemProgramming@gmail.com" target="_blank"><img src={IMG_Email} className="contact-images" alt="Email graphic"/>  <p>JesseClemProgramming@gmail.com</p></a>
+                    <a href="tel:+13607012737"><img src={IMG_Phone} className="contact-images" alt="Phone Graphic"/>  <p>1(360)701-2737</p></a>
+                    <a href="https://github.com/JesseProgramming?tab=repositories" target="_blank"><img src={IMG_Github} className="contact-images" alt="Github graphic"/>  <p>GitHub</p></a>
+                    <a href="https://www.linkedin.com/in/jesse-clem/" target="_blank"><img src={IMG_Linkedin} className="contact-images" alt="Linkedin graphic"/>  <p>Linkedin</p></a>
                 </div>
                 <div id="form-container">
                     <form id="contactForm">

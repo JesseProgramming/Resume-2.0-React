@@ -29,8 +29,8 @@ function HomePage() {
             <div className="alert">Your message has been sent</div>
             <div id="top-main-container">
                 <div id="top-landing-container">
-                    <h2>Hi, I'm Jesse :)</h2>
-                    <h1>I'm Frontend Engineer from the greater Seattle area. I create stylized sites with with exceptional performance.</h1>
+                    <h1>Hi, I'm Jesse :)</h1>
+                    <h2>I'm Frontend Engineer from the greater Seattle area. I create stylized sites with with exceptional performance.</h2>
                     <h3>With over 5 years of experience working with industry leading programming tools, I have the expert level knowledge you need for frontend engineering, design, and deployment.</h3>
                     <a href="#form-container"><button id="btn-hire">Let's work together!</button></a>
                 </div>

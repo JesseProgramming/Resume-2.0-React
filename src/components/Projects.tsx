@@ -29,7 +29,7 @@ function Projects() {
             <div id="projects-container">
                 <div id="card-container">
                     <div className="card">
-                        <img src={TeslaPage}/>
+                        <img src={TeslaPage} alt="Landing page graphic of Tesla site project"/>
                         <div className="card-body">
                             <h3 className="card-title">
                                 Tesla Landing Page Clone
@@ -44,7 +44,7 @@ function Projects() {
                         </div>
                     </div>
                     <div className="card">
-                        <img src={AdminDashboard}/>
+                        <img src={AdminDashboard} alt="Landing page graphic of Admin site project"/>
                         <div className="card-body">
                             <h3 className="card-title">
                                 Admin Dashboard
@@ -59,7 +59,7 @@ function Projects() {
                         </div>
                     </div>
                     <div className="card">
-                        <img src={DayDots}/>
+                        <img src={DayDots} alt="Landing page graphic of Day Dots site project"/>
                         <div className="card-body">
                             <h3 className="card-title">
                                 Day Dots Reference
@@ -74,7 +74,7 @@ function Projects() {
                         </div>
                     </div>
                     <div className="card">
-                        <img src={ResumeSite}/>
+                        <img src={ResumeSite} alt="Landing page graphic of Resume site project, which is this very page!"/>
                         <div className="card-body">
                             <h3 className="card-title">
                                 Resume Site 2.0
@@ -88,7 +88,7 @@ function Projects() {
                         </div>
                     </div>
                     <div className="card">
-                        <img src={Ecommerce}/>
+                        <img src={Ecommerce}  alt="Blurry picture featuring three phones"/>
                         <div className="card-body">
                             <h3 className="card-title">
                                 Ecommerce Site
@@ -102,19 +102,19 @@ function Projects() {
                 <br/>
                 <div id="top-icon-bar">
                     <div className="icon-bar-item">
-                        <img src={IMG_Mobile} className="svg-filter"/>
+                        <img src={IMG_Mobile} className="svg-filter" alt="phone graphic for mobile friendliness"/>
                         <p>Mobile Friendly</p>
                     </div>
                     <div className="icon-bar-item">
-                        <img src={IMG_SEO} className="svg-filter"/>
+                        <img src={IMG_SEO} className="svg-filter" alt="globe graphic for search engine optimization"/>
                     <p>Search Engine Optimized</p>
                     </div>
                     <div className="icon-bar-item">
-                        <img src={IMG_Accessible} className="svg-filter"/>
+                        <img src={IMG_Accessible} className="svg-filter" alt="person graphic for accessibility"/>
                     <p>Accessible</p>
                     </div>
                     <div className="icon-bar-item">
-                        <img src={IMG_Performance} className="svg-filter"/>
+                        <img src={IMG_Performance} className="svg-filter" alt="gauge graphic for high performance"/>
                     <p>High Performing</p>
                     </div>
                 </div>

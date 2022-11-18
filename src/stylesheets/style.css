@@ -44,7 +44,7 @@ body{
     background-size: cover;
     box-shadow: rgba(28, 28, 125, 0.784) -15px 25px 50px 20px;
 }
-#top-landing-container h2{
+#top-landing-container h1{
     display: inline-block;
     width: auto;
     background-color: rgba(0, 119, 255, 0.342);
@@ -55,7 +55,7 @@ body{
     padding-left: 14px;
     padding-right: 14px;
 }
-#top-landing-container h1{
+#top-landing-container h2{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #top-landing-container h3{
@@ -156,10 +156,10 @@ body{
     right: 14px;
     box-shadow: rgba(27, 203, 209, 0.8) 0px 5px 35px;
     border: solid 4px rgba(255, 255, 255, 0);
-    animation: resumeBreathing 6s;
+    /*animation: resumeBreathing 6s;*/
     animation-iteration-count: infinite;
 }
-
+/*
 @keyframes resumeBreathing {
     0% {
         box-shadow: rgba(27, 203, 209, 0.8) 0px 5px 35px;
@@ -175,6 +175,7 @@ body{
     }
 
   }
+  */
 #resume-button img{
     height: 50px;
     width: 50px;
@@ -234,8 +235,8 @@ input[type=text], select, textarea {
   .grecaptcha-badge { visibility: hidden; }
 
 .card img{
-    height: 135px;
     width: 100%;
+    aspect-ratio: 2 / 1;
     border-radius: 20px;
 }
 .card{
@@ -507,12 +508,12 @@ nav a:hover{
         width: 100%;
         margin: 20px;
     }
-    #top-landing-container h1{
+    #top-landing-container h2{
         font-size: 1em;
         width: 75%;
         margin: 8px;
     }
-    #top-landing-container h2{
+    #top-landing-container h1{
         margin-top: 50px;
     }
     #top-landing-container h3{
@@ -558,6 +559,7 @@ nav a:hover{
     }
     .skill-icons{
         height: 35px;
+        width: auto;
     }
     .skill-cards p {
         font-size: 0.7em;;
@@ -599,7 +601,6 @@ nav a:hover{
         width: 25%;
     }
     .card img{
-        height: 100px;
     }
     .card-description{
         height: auto;

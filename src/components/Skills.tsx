@@ -30,83 +30,83 @@ function Skills() {
             <h4 className="section-header">Top Technical Skills</h4>
             <div className="skill-card-container">
                 <div className="skill-cards">
-                    <img src={IMG_Javascript} className="skill-icons"/>
+                    <img src={IMG_Javascript} className="skill-icons" alt="Javascript graphic"/>
                     <p>JavaScript</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_TypeScript} className="skill-icons"/>
+                    <img src={IMG_TypeScript} className="skill-icons" alt="TypeScript graphic"/>
                     <p>TypeScript</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_React} className="skill-icons"/>
+                    <img src={IMG_React} className="skill-icons" alt="React graphic"/>
                     <p>React</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_HTML5} className="skill-icons"/>
+                    <img src={IMG_HTML5} className="skill-icons" alt="HTML5 graphic"/>
                     <p>HTML5</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_CSS3} className="skill-icons"/>
+                    <img src={IMG_CSS3} className="skill-icons" alt="CSS3 graphic"/>
                     <p>CSS3</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_SASS} className="skill-icons"/>
+                    <img src={IMG_SASS} className="skill-icons" alt="SASS graphic"/>
                     <p>SASS</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_CSS3} className="skill-icons"/>
+                    <img src={IMG_CSS3} className="skill-icons" alt="Bootstrap graphic"/>
                     <p>Bootstrap</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_jQuery} className="skill-icons"/>
+                    <img src={IMG_jQuery} className="skill-icons" alt="jQuery graphic"/>
                     <p>jQuery</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_PHP} className="skill-icons"/>
+                    <img src={IMG_PHP} className="skill-icons" alt="PHP graphic"/>
                     <p>PHP</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_Wordpress} className="skill-icons"/>
+                    <img src={IMG_Wordpress} className="skill-icons" alt="Wordpress graphic"/>
                     <p>Wordpress</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_Git} className="skill-icons"/>
+                    <img src={IMG_Git} className="skill-icons" alt="Git graphic"/>
                     <p>Git</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_Github} className="skill-icons"/>
+                    <img src={IMG_Github} className="skill-icons" alt="GitHub graphic"/>
                     <p>GitHub</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_Webpack} className="skill-icons"/>
+                    <img src={IMG_Webpack} className="skill-icons" alt="WebPack graphic"/>
                     <p>WebPack</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_Babel} className="skill-icons"/>
+                    <img src={IMG_Babel} className="skill-icons" alt="Babel graphic"/>
                     <p>Babel</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_Python} className="skill-icons"/>
+                    <img src={IMG_Python} className="skill-icons" alt="Python graphic"/>
                     <p>Python</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_ChromeDevtools} className="skill-icons"/>
+                    <img src={IMG_ChromeDevtools} className="skill-icons" alt="Chrome DevTools graphic"/>
                     <p>Chrome DevTools</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_GoogleAnalytics} className="skill-icons"/>
+                    <img src={IMG_GoogleAnalytics} className="skill-icons" alt="Google Analytics graphic"/>
                     <p>Google Analytics</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_Firebase} className="skill-icons"/>
+                    <img src={IMG_Firebase} className="skill-icons" alt="FireBase graphic"/>
                     <p>FireBase</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_Photoshop} className="skill-icons"/>
+                    <img src={IMG_Photoshop} className="skill-icons" alt="Photoshop graphic"/>
                     <p>Photoshop</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_Illustrator} className="skill-icons"/>
+                    <img src={IMG_Illustrator} className="skill-icons" alt="Illustrator graphic"/>
                     <p>Illustrator</p>
                 </div>
             </div>
