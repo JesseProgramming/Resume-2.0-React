@@ -1,4 +1,4 @@
-import '../stylesheets/style.css';
+import '../stylesheets/contact-style.scss';
 import React from 'react'
 import {useState} from 'react';
 //@ts-ignore
