@@ -33,7 +33,7 @@ body{
     z-index: -5;
 }
 #planets{
-    background-image: url("inspiration.webp");
+    background-image: url("../images/inspiration.webp");
     height: 100%;
     width: 100%;
     z-index: 0;
@@ -606,7 +606,7 @@ nav a:hover{
         height: auto;
     }
     nav{
-        right: 75px;
+        right: 95px;
         top: 10px;
     }
 
@@ -650,6 +650,182 @@ nav a:hover{
 
       #form-container {
         border-radius: 0px;
+      }
+    
+
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    #top-landing-container{
+        width: 100%;
+        margin: 20px;
+    }
+    #top-landing-container h2{
+        font-size: 1em;
+        width: 75%;
+        margin: 8px;
+    }
+    #top-landing-container h1{
+        margin-top: 50px;
+    }
+    #top-landing-container h3{
+        font-size: 0.8em;
+        margin: 8px;
+        width: 75%;
+    }
+    #top-hover-graphics img{
+        right: 5%;
+        height: 300px;
+    }
+    @keyframes mymove {
+        0% {top: 40%;}
+        50% {top: 32%;}
+        100%{top: 40%;}
+    }
+    #resume-button{
+        background-color: rgb(0, 255, 234);
+        border: none;
+        padding: 15px;
+        border-radius: 55px;
+        position: fixed;
+        z-index: 2;
+        top: 14px;
+        right: 14px;
+        box-shadow: rgba(27, 203, 209, 0.8) 0px 5px 35px;
+    }
+    #planets{
+        background-position: 40% 75%;
+    }
+    #top-main-container{
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        position: absolute;
+    }
+    #main-projects-container{
+        height: auto;
+    }
+    #project-container-alignment{
+        display: block;
+        padding-top: 25px;
+    }
+    .skill-icons{
+        height: 35px;
+        width: auto;
+    }
+    .skill-cards p {
+        font-size: 0.7em;;
+    }
+    .skill-cards{
+        width: 10%;
+    }
+    .section-header{
+        font-size: 1.3em;
+    }
+    #random-facts{
+        width: 90%;
+        margin: 0;
+    }
+    
+    #resume-button{
+        top: 35px;
+        padding: 5px;
+        height: 50px;
+        width: 50px;
+    }
+    #resume-button img{
+        height: 35px;
+        width: 35px;
+    }
+    #resume-button:hover{
+        background-color: rgb(133, 255, 255);
+        box-shadow: rgba(44, 213, 219, 0.5) 0px 5px 45px;
+        cursor: pointer;
+    }
+    #form-container{
+        max-width: 100%;
+    }
+    #personals-container{
+        flex-wrap: wrap;
+    }
+    #personals-container a{
+        font-size: 0.75em;
+        height: 20px;
+        
+    }
+    #top-icon-bar{
+        flex-wrap: wrap;
+    }
+    .card{
+        margin-left: 7%;
+        width: 90%;
+    }
+    .card img{
+    }
+    .card-description{
+        height: auto;
+    }
+    nav{
+        left: 10px;
+        top: 10px;
+    }
+    nav a{
+        font-size: 1em;
+    }
+
+    
+    .btn-projects{
+        font-size: 0.6em;
+    }
+    .skill-card-container{
+        
+    }
+
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 3px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 5px;
+        resize: vertical;
+        background-color: #0a0a0ad5;
+        color: white;
+      }
+      
+      input[type=submit] {
+        background-color: #054ecb;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      #message{
+        height: 75px;
+      }
+      @keyframes mymove {
+        0% {top: 42%;}
+        50% {top: 38%;}
+        100%{top: 42%;}
+      }
+
+      #form-container {
+        border-radius: 0px;
+      }
+      #random-facts{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: auto;
+        align-items: center;
+      }
+
+      #skills-and-about{
+        padding-top: 45px;
+        padding-bottom: 45px;;
       }
     
 

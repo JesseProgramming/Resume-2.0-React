@@ -9,37 +9,63 @@ import IMG_Phone from '../images/icons/alternate-phone.svg';
 import IMG_Github from '../images/icons/github.svg';
 //@ts-ignore
 import IMG_Linkedin from '../images/icons/social-linkedin.svg';
-import postscribe from 'postscribe';
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import { getDatabase, ref, set } from "firebase/database";
+import firebase from 'firebase/compat/app';
+import "firebase/compat/database";
+import 'firebase/firestore';
+import 'firebase/auth';
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAqzhEGInn3vTZdAx8dYWFTg8wmI9Wq7h8",
-  authDomain: "resumeemail-bcc6e.firebaseapp.com",
-  databaseURL: "https://resumeemail-bcc6e-default-rtdb.firebaseio.com",
-  projectId: "resumeemail-bcc6e",
-  storageBucket: "resumeemail-bcc6e.appspot.com",
-  messagingSenderId: "848438459734",
-  appId: "1:848438459734:web:04d69401e27d913460aaf7",
-  measurementId: "G-WCTW3NLFCK"
+
 };
 
 // Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 //reference messages collection
-//const messageRef = database().ref('messages');
-const messageRef = ref(getDatabase(), 'messages');
+const messageRef = firebase.database().ref('messages');
+
+const handleSubmit = (event) => {
+    //prevent page reload on submit
+    event.preventDefault();
+    // get values in contact form
+    let name = event.target.name.value;
+    let email = event.target.email.value;
+    let message = event.target.message.value;
+    // save message function call
+    saveMessage(name, email, message);
+    //show alert
+    //@ts-ignore        //Redo line with best practices
+    document.querySelector('.alert').style.display = "block";
+    //hide alert after 4 seconds
+    setTimeout(function(){
+        //@ts-ignore        //Redo line with best practices
+        document.querySelector('.alert').style.display = "none";
+    },4000);
+    //reset the form
+    event.target.reset();
+}
+
+function saveMessage(name, email, message){
+    var newMessageRef = messageRef.push();
+    newMessageRef.set({
+        name: name,
+        email: email,
+        message: message
+    });
+  }
+  
 
 function Contact() {
-
      return(
          <>
             <div id="contact-and-resume">
@@ -53,7 +79,7 @@ function Contact() {
                     <a href="https://www.linkedin.com/in/jesse-clem/" target="_blank"><img src={IMG_Linkedin} className="contact-images" alt="Linkedin graphic"/>  <p>Linkedin</p></a>
                 </div>
                 <div id="form-container">
-                    <form id="contactForm">
+                    <form id="contactForm" onSubmit={handleSubmit}>
                         <label htmlFor="name">Name<p>*</p></label>
                         <input type="text" id="name" name="name" placeholder="Name" required/>
                         

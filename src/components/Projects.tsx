@@ -83,7 +83,7 @@ function Projects() {
                                 My personal online resume site. Built using scalable code in React so adding new content is simple and all handled in components.
                             </p>
                             <div className="card-buttons">
-                                <a href="https://github.com/JesseProgramming/Resume-2.0" target="_blank"><button type="button" className="btn-projects btn-view-code">View Code</button></a>
+                                <a href="https://github.com/JesseProgramming/Resume-2.0-React" target="_blank"><button type="button" className="btn-projects btn-view-code">View Code</button></a>
                             </div>
                         </div>
                     </div>
