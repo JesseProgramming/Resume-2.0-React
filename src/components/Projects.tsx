@@ -19,7 +19,9 @@ import IMG_Accessible from '../images/icons/accessible.svg';
 //@ts-ignore
 import IMG_Performance from '../images/icons/tachometer-fast-alt.svg';
 
-function Projects() {
+import '../stylesheets/projects-style.scss';
+
+export default function Projects() {
     return(
         <>
 
@@ -128,6 +130,3 @@ function Projects() {
         </>
     );
 }
-
-export default Projects;
-

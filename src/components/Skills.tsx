@@ -1,4 +1,4 @@
-import '../stylesheets/style.css';
+import '../stylesheets/skills-style.scss';
 import React from 'react'
 //@ts-ignore
 import IMG_Javascript from '../images/skills-icons/javascript.png';
@@ -23,7 +23,7 @@ import IMG_Firebase from '../images/skills-icons/firebase.png';
 import IMG_Photoshop from '../images/skills-icons/photoshop.png';
 import IMG_Illustrator from '../images/skills-icons/illustrator.png';
 
-function Skills() {
+export default function Skills() {
      return(
          <>
             <div id="skills-and-about">
@@ -122,5 +122,3 @@ function Skills() {
          </>
      );
 }
-
-export default Skills;

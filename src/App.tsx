@@ -1,19 +1,20 @@
 import React from 'react'
-import HomePage from './components/HomePage';
+//components
+import Landing from './components/Landing';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
-import ScriptHooks from './components/ScriptHooks';
-function App() {
+//stylesheets
+import './stylesheets/general-style.scss';
+import './stylesheets/responsive.scss';
+
+export default function App() {
   return (
     <>
-      <HomePage/>
+      <Landing/>
       <Projects/>
       <Skills/>
       <Contact/>
-      ScriptHooks("../components/script.js");
     </>
   );
 }
-
-export default App;

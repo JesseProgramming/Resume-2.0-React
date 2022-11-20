@@ -1,4 +1,4 @@
-import '../stylesheets/style.css';
+import '../stylesheets/landing-style.scss';
 import React from 'react'
 //@ts-ignore
 import MyImage from '../images/icons/self-drawing.png';
@@ -7,7 +7,7 @@ import ArrowDown from '../images/icons/arrow-down.png';
 //@ts-ignore
 import PaperFileText from '../images/icons/paper-file-text.svg';
 
-function HomePage() {
+export default function Landing() {
      return(
          <>
              <div id="background-container">
@@ -44,5 +44,3 @@ function HomePage() {
          </>
      );
 }
-
-export default HomePage;
