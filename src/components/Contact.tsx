@@ -1,14 +1,14 @@
-import '../stylesheets/contact-style.scss';
 import React from 'react'
 import {useState} from 'react';
-//@ts-ignore
+
+import './Contact.scss';
+
 import IMG_Email from '../images/icons/email.svg';
-//@ts-ignore
 import IMG_Phone from '../images/icons/alternate-phone.svg';
-//@ts-ignore
 import IMG_Github from '../images/icons/github.svg';
-//@ts-ignore
 import IMG_Linkedin from '../images/icons/social-linkedin.svg';
+
+import { firebaseConfigAPI } from './apiKeys';
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
@@ -23,9 +23,7 @@ import 'firebase/auth';
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-
-};
+const firebaseConfig = firebaseConfigAPI;
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);

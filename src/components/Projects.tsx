@@ -1,25 +1,17 @@
 import React from 'react'
-//@ts-ignore
-import TeslaPage from '../images/project-pictures/TeslaPage.webp';
-//@ts-ignore
-import AdminDashboard from '../images/project-pictures/adminDashboard.webp';
-//@ts-ignore
-import DayDots from '../images/project-pictures/shot1.webp';
-//@ts-ignore
-import ResumeSite from '../images/project-pictures/resumesite.webp';
-//@ts-ignore
+
+import './Projects.scss';
+
+import TeslaPage from '../images/project-pictures/img_Tesla.PNG';
+import AdminDashboard from '../images/project-pictures/img_Dashboard.PNG';
+import DayDots from '../images/project-pictures/img_DayDots.PNG';
+import ResumeSite from '../images/project-pictures/img_Portfolio.PNG';
+import WeatherApp from '../images/project-pictures/WeatherApp.png';
 import Ecommerce from '../images/project-pictures/preview.webp';
-
-//@ts-ignore
 import IMG_Mobile from '../images/icons/mobile-phone.svg';
-//@ts-ignore
 import IMG_SEO from '../images/icons/web.svg';
-//@ts-ignore
 import IMG_Accessible from '../images/icons/accessible.svg';
-//@ts-ignore
 import IMG_Performance from '../images/icons/tachometer-fast-alt.svg';
-
-import '../stylesheets/projects-style.scss';
 
 export default function Projects() {
     return(
@@ -76,13 +68,13 @@ export default function Projects() {
                         </div>
                     </div>
                     <div className="card">
-                        <img src={ResumeSite} alt="Landing page graphic of Resume site project, which is this very page!"/>
+                        <img src={ResumeSite} alt="Landing page graphic of Portfolio site project, which is this very page!"/>
                         <div className="card-body">
                             <h3 className="card-title">
-                                Resume Site 2.0
+                                Portfolio Site 2.0
                             </h3>
                             <p className="card-description">
-                                My personal online resume site. Built using scalable code in React so adding new content is simple and all handled in components.
+                                My personal online Portfolio site. Built using scalable code in React so adding new content is simple and all handled in components.
                             </p>
                             <div className="card-buttons">
                                 <a href="https://github.com/JesseProgramming/Resume-2.0-React" target="_blank"><button type="button" className="btn-projects btn-view-code">View Code</button></a>
@@ -90,13 +82,28 @@ export default function Projects() {
                         </div>
                     </div>
                     <div className="card">
+                        <img src={WeatherApp} alt="Graphic of Weather app page UI in use"/>
+                        <div className="card-body">
+                            <h3 className="card-title">
+                                Weather App
+                            </h3>
+                            <p className="card-description">
+                                Makes use of 3 API's to deliver accurate weather data. APIs include: GeoDB Cities, OpenWeather, and HTML Geolocation.
+                            </p>
+                            <div className="card-buttons">
+                                <a href="https://jjcprogramming.com/projects/WeatherApp/index.html" target="_blank"><button type="button" className="btn-projects btn-view-project">View Project</button></a>
+                                <a href="https://github.com/JesseProgramming/WeatherApp" target="_blank"><button type="button" className="btn-projects btn-view-code">View Code</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card">
                         <img src={Ecommerce}  alt="Blurry picture featuring three phones"/>
                         <div className="card-body">
                             <h3 className="card-title">
-                                Ecommerce Site
+                                Ecommerce Site - Coming Soon
                             </h3>
                             <p className="card-description">
-                                Coming soon.
+                                Coming soon. Makes use of the MERN Stack (MongoDB, Express, React, Node.js) to create a fully functional online shopping experience.
                             </p>
                         </div>
                     </div>

@@ -14,7 +14,7 @@
     z-index: -5;
 }
 #planets{
-    background-image: url("../images/inspiration.webp");
+    background-image: url("../images/other-images/inspiration.webp");
     height: 100%;
     width: 100%;
     z-index: 0;
@@ -195,4 +195,185 @@ nav a:hover{
     color: white;
     text-decoration: none;
     border-bottom: 3px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1050px) {
+    #top-landing-container{
+        width: 100%;
+        margin: 20px;
+    }
+    #top-landing-container h2{
+        font-size: 1em;
+        width: 75%;
+        margin: 8px;
+    }
+    #top-landing-container h1{
+        margin-top: 50px;
+    }
+    #top-landing-container h3{
+        font-size: 0.8em;
+        margin: 8px;
+        width: 75%;
+    }
+    #top-hover-graphics img{
+        right: 5%;
+        height: 300px;
+    }
+    @keyframes mymove {
+        0% {top: 40%;}
+        50% {top: 32%;}
+        100%{top: 40%;}
+    }
+    #resume-button{
+        background-color: rgb(0, 255, 234);
+        border: none;
+        padding: 15px;
+        border-radius: 55px;
+        position: fixed;
+        z-index: 2;
+        top: 14px;
+        right: 14px;
+        box-shadow: rgba(27, 203, 209, 0.8) 0px 5px 35px;
+    }
+    #planets{
+        background-position: 40% 75%;
+    }
+    #top-main-container{
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        position: absolute;
+    }
+
+    .section-header{
+        font-size: 1.3em;
+    }
+
+    #resume-button{
+        padding: 10px;
+    }
+    #resume-button:hover{
+        background-color: rgb(133, 255, 255);
+        box-shadow: rgba(44, 213, 219, 0.5) 0px 5px 45px;
+        cursor: pointer;
+    }
+    nav{
+        right: 95px;
+        top: 10px;
+    }
+      @keyframes mymove {
+        0% {top: 42%;}
+        50% {top: 38%;}
+        100%{top: 42%;}
+      }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    #top-landing-container{
+        width: 100%;
+        margin: 20px;
+    }
+    #top-landing-container h2{
+        font-size: 1em;
+        width: 75%;
+        margin: 8px;
+    }
+    #top-landing-container h1{
+        margin-top: 50px;
+    }
+    #top-landing-container h3{
+        font-size: 0.8em;
+        margin: 8px;
+        width: 75%;
+    }
+    #top-hover-graphics img{
+        right: 5%;
+        height: 300px;
+    }
+    @keyframes mymove {
+        0% {top: 40%;}
+        50% {top: 32%;}
+        100%{top: 40%;}
+    }
+    #resume-button{
+        background-color: rgb(0, 255, 234);
+        border: none;
+        padding: 15px;
+        border-radius: 55px;
+        position: fixed;
+        z-index: 2;
+        top: 14px;
+        right: 14px;
+        box-shadow: rgba(27, 203, 209, 0.8) 0px 5px 35px;
+    }
+    #planets{
+        background-position: 40% 75%;
+    }
+    #top-main-container{
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        position: absolute;
+    }
+    
+    #resume-button{
+        top: 35px;
+        padding: 5px;
+        height: 50px;
+        width: 50px;
+    }
+    #resume-button img{
+        height: 35px;
+        width: 35px;
+    }
+    #resume-button:hover{
+        background-color: rgb(133, 255, 255);
+        box-shadow: rgba(44, 213, 219, 0.5) 0px 5px 45px;
+        cursor: pointer;
+    }
+    nav{
+        left: 10px;
+        top: 10px;
+    }
+    nav a{
+        font-size: 1em;
+    }
+      @keyframes mymove {
+        0% {top: 42%;}
+        50% {top: 38%;}
+        100%{top: 42%;}
+      }
 }

@@ -1,6 +1,7 @@
-import '../stylesheets/skills-style.scss';
 import React from 'react'
-//@ts-ignore
+
+import './Skills.scss';
+
 import IMG_Javascript from '../images/skills-icons/javascript.png';
 import IMG_TypeScript from '../images/skills-icons/typescript.png';
 import IMG_React from '../images/skills-icons/react.png';
@@ -11,12 +12,11 @@ import IMG_Bootstrap from '../images/skills-icons/bootstrap.png';
 import IMG_jQuery from '../images/skills-icons/jquery.png';
 import IMG_PHP from '../images/skills-icons/php.png';
 import IMG_Wordpress from '../images/skills-icons/wordpress.png';
-
 import IMG_Git from '../images/skills-icons/git.png';
 import IMG_Github from '../images/skills-icons/github.png';
 import IMG_Webpack from '../images/skills-icons/webpack.png';
 import IMG_Babel from '../images/skills-icons/babel.png';
-import IMG_Python from '../images/skills-icons/python.png';
+import IMG_Node from '../images/skills-icons/node-js.png';
 import IMG_ChromeDevtools from '../images/skills-icons/chrome-devtools.png';
 import IMG_GoogleAnalytics from '../images/skills-icons/google-analytics.png';
 import IMG_Firebase from '../images/skills-icons/firebase.png';
@@ -86,8 +86,8 @@ export default function Skills() {
                     <p>Babel</p>
                 </div>
                 <div className="skill-cards">
-                    <img src={IMG_Python} className="skill-icons" alt="Python graphic"/>
-                    <p>Python</p>
+                    <img src={IMG_Node} className="skill-icons" alt="Python graphic"/>
+                    <p>Node.js</p>
                 </div>
                 <div className="skill-cards">
                     <img src={IMG_ChromeDevtools} className="skill-icons" alt="Chrome DevTools graphic"/>
