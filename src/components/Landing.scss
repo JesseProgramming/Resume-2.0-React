@@ -3,6 +3,7 @@
     width: 100vw;
     position: relative;
 }
+
 #background-gradient{
     background: rgb(6, 2, 19);
     background: -moz-linear-gradient(164deg, rgba(11,4,32,1) 0%, rgba(10,7,37,1) 17%, rgba(3,29,66,1) 43%, rgba(3,29,66,1) 44%, rgba(11,6,36,1) 82%, rgba(11,4,32,1) 100%);
@@ -13,6 +14,7 @@
     width: 100%;
     z-index: -5;
 }
+
 #planets{
     background-image: url("../images/other-images/inspiration.webp");
     height: 100%;
@@ -25,6 +27,7 @@
     background-size: cover;
     box-shadow: rgba(28, 28, 125, 0.784) -15px 25px 50px 20px;
 }
+
 #top-landing-container h1{
     display: inline-block;
     width: auto;
@@ -36,13 +39,16 @@
     padding-left: 14px;
     padding-right: 14px;
 }
+
 #top-landing-container h2{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 #top-landing-container h3{
     margin-top: 8px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 #top-landing-container{
     position: absolute;
     top: 0;
@@ -52,6 +58,7 @@
     margin-top: 40vh;
     margin-left: 2vw;
 }
+
 #top-hover-graphics img{
     position: absolute;
     right: 15%;
@@ -60,12 +67,14 @@
     animation: mymove 5s;
     animation-iteration-count: infinite;
 }
+
 @keyframes mymove{
     0% {top: 30%;}
     50% {top: 20%;}
     100%{top: 30%;}
 
   }
+
 .down-arrow-graphic{
     position: absolute;
     bottom: 4%;
@@ -76,6 +85,7 @@
     animation-iteration-count: infinite;
     padding: 1%;
 }
+
 @keyframes arrowmove {
     0% {bottom: 4%;}
     25% {bottom: 5%;}
@@ -101,9 +111,11 @@
     box-shadow: rgba(143, 223, 255, 0.3) 0px 0px 29px 0px;
     transition: ease 0.3s;
 }
+
 #top-landing-container a button:hover{
     box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 55px 0px;
 }
+
 #resume-button{
     background-color: rgb(0, 255, 234);
     border: none;
@@ -118,16 +130,19 @@
     /*animation: resumeBreathing 6s;*/
     animation-iteration-count: infinite;
 }
+
 #resume-button img{
     height: 50px;
     width: 50px;
 }
+
 #resume-button:hover{
     background-color: rgb(133, 255, 255);
     box-shadow: rgba(44, 213, 219, 0.5) 0px 5px 45px;
     cursor: pointer;
     border: solid 4px white;
 }
+
 #top-landing-container p{
     display: flex;
     align-items: center;
@@ -135,11 +150,13 @@
     vertical-align: middle;
     display: inline-block;
 }
+
 .tooltip{
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
 }
+
 .tooltip .tooltiptext{
     visibility: hidden;
     width: 75px;
@@ -156,9 +173,11 @@
     margin-left: -37px;
     margin-top: 10px;
 }
+
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
+
 .alert{
     text-align: center;
     padding: 20px;
@@ -171,6 +190,7 @@
     width: 100vw;
     top: 14px;
 }
+
 nav{
     color: white;
     top: 4%;
@@ -178,6 +198,7 @@ nav{
     position: fixed;
     z-index: 5;
 }
+
 nav a{
     margin: 8px;
     font-size: 1.3em;
@@ -187,10 +208,12 @@ nav a{
     padding: 2px;
     color: white;
 }
+
 nav a:visited{
     color: white;
     text-decoration: none;
 }
+
 nav a:hover{
     color: white;
     text-decoration: none;
@@ -198,63 +221,33 @@ nav a:hover{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 1050px) {
     #top-landing-container{
         width: 100%;
         margin: 20px;
     }
+    
     #top-landing-container h2{
         font-size: 1em;
         width: 75%;
         margin: 8px;
     }
+
     #top-landing-container h1{
         margin-top: 50px;
     }
+
     #top-landing-container h3{
         font-size: 0.8em;
         margin: 8px;
         width: 75%;
     }
+
     #top-hover-graphics img{
         right: 5%;
         height: 300px;
     }
-    @keyframes mymove {
-        0% {top: 40%;}
-        50% {top: 32%;}
-        100%{top: 40%;}
-    }
+
     #resume-button{
         background-color: rgb(0, 255, 234);
         border: none;
@@ -266,9 +259,11 @@ nav a:hover{
         right: 14px;
         box-shadow: rgba(27, 203, 209, 0.8) 0px 5px 35px;
     }
+
     #planets{
         background-position: 40% 75%;
     }
+
     #top-main-container{
         height: 100vh;
         width: 100vw;
@@ -283,97 +278,62 @@ nav a:hover{
     #resume-button{
         padding: 10px;
     }
+
     #resume-button:hover{
         background-color: rgb(133, 255, 255);
         box-shadow: rgba(44, 213, 219, 0.5) 0px 5px 45px;
         cursor: pointer;
     }
+
     nav{
         right: 95px;
         top: 10px;
     }
-      @keyframes mymove {
+
+    @keyframes mymove {
         0% {top: 42%;}
         50% {top: 38%;}
         100%{top: 42%;}
-      }
+    }
 }
 
 
 
 @media only screen and (max-width: 500px) {
-    #top-landing-container{
-        width: 100%;
-        margin: 20px;
-    }
-    #top-landing-container h2{
-        font-size: 1em;
-        width: 75%;
-        margin: 8px;
-    }
-    #top-landing-container h1{
-        margin-top: 50px;
-    }
-    #top-landing-container h3{
-        font-size: 0.8em;
-        margin: 8px;
-        width: 75%;
-    }
-    #top-hover-graphics img{
-        right: 5%;
-        height: 300px;
-    }
-    @keyframes mymove {
-        0% {top: 40%;}
-        50% {top: 32%;}
-        100%{top: 40%;}
-    }
-    #resume-button{
-        background-color: rgb(0, 255, 234);
-        border: none;
-        padding: 15px;
-        border-radius: 55px;
-        position: fixed;
-        z-index: 2;
-        top: 14px;
-        right: 14px;
-        box-shadow: rgba(27, 203, 209, 0.8) 0px 5px 35px;
-    }
-    #planets{
-        background-position: 40% 75%;
-    }
-    #top-main-container{
-        height: 100vh;
-        width: 100vw;
-        top: 0;
-        position: absolute;
-    }
-    
     #resume-button{
         top: 35px;
         padding: 5px;
         height: 50px;
         width: 50px;
     }
+
+    #planets{
+        background-position: 40% 75%;
+    }
+    
     #resume-button img{
         height: 35px;
         width: 35px;
     }
+
     #resume-button:hover{
         background-color: rgb(133, 255, 255);
         box-shadow: rgba(44, 213, 219, 0.5) 0px 5px 45px;
         cursor: pointer;
     }
+
     nav{
         left: 10px;
         top: 10px;
     }
+
     nav a{
         font-size: 1em;
     }
-      @keyframes mymove {
+
+    @keyframes mymove {
         0% {top: 42%;}
         50% {top: 38%;}
         100%{top: 42%;}
-      }
+    }
 }

@@ -3,6 +3,10 @@
   height: 100vh;
   color: black;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 input[type=text], select, textarea {
@@ -27,7 +31,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #5080d1;
 }
 
@@ -48,48 +52,38 @@ input[type=submit] {
 #message{
   height: 135px;
 }
-.grecaptcha-badge {
-  visibility: hidden;
-}
 
 #personals-container{
   display: flex;
   justify-content: center;
   background-color: #054ecb;
   width: 100vw;
-}
 
-#personals-container a{
-  margin: 12px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  a{
+    margin: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-#personals-container a img{
-  height: 35px;
-}
+    :visited{
+      color: white;
+    }
 
-#personals-container a:visited{
-  color: white;
-}
+    img{
+      height: 35px;
+    }
 
-#personals-container a p{
-  padding-left: 10px;
+    p{
+      padding-left: 10px;
+    }
+  }
 }
 
 label p{
   color: rgb(255, 82, 82);
   display: inline-block;
   margin-left: 5px;
-}
-
-#contact-and-resume{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 .contact-images{
