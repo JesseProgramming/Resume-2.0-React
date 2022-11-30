@@ -94,3 +94,34 @@
     flex-direction: row;
     align-items: center;
 }
+
+@media only screen and (max-width: 1050px) {
+    #main-projects-container{
+        height: auto;
+    }
+    #project-container-alignment{
+        display: block;
+        padding-top: 25px;
+    }
+    #top-icon-bar{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 25%;
+    }
+    .card-description{
+        height: auto;
+    }
+    .btn-projects{
+        font-size: 0.8em;
+        height: 3em;
+        width: 8em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .card{
+        margin-left: 7%;
+        width: 90%;
+    }
+}

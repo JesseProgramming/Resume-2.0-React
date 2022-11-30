@@ -1,7 +1,6 @@
 import React from 'react'
 //stylesheets
 import './stylesheets/general-style.scss';
-import './stylesheets/responsive.scss';
 //components
 import Landing from './components/Landing';
 import Projects from './components/Projects';

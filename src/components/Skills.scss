@@ -35,3 +35,40 @@
     padding: 35px;
     margin-bottom: 25px;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 1050px) {
+    .skill-icons{
+        height: 35px;
+        width: auto;
+    }
+    .skill-cards p {
+        font-size: 0.7em;;
+    }
+    .skill-cards{
+        width: 10%;
+    }
+    #random-facts{
+        width: 90%;
+        margin: 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    #random-facts{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: auto;
+        align-items: center;
+    }
+    #skills-and-about{
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+}
